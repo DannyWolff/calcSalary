@@ -1,0 +1,12 @@
+.bg-color__mycolor {
+    background-color:#AF111C;
+}
+
+.btn-color__mycolor{
+    background-color:#AF111C;
+    color:#FFFFFF;
+}
+
+#loading, #result {
+    display: none;
+}
