@@ -30,17 +30,45 @@
                             </div>
                             <input type="number" class="form-control" id="nza" placeholder="0">
                         </div>
+                         <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text far fa-calendar-alt"></span>
+                            </div>
+                            <input type="number" class="form-control" id="mnt" placeholder="12">
+                        </div>
+                         <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text far fa-calendar-alt"></span>
+                            </div>
+                            <input type="number" class="form-control" id="yr" placeholder="2018">
+                        </div>
                         <div class="input-group mb3">
                             <input type="submit" value="Calcul salariu lunar" class="btn btn-color__mycolor btn-block" id="btn">
                         </div>
                     </form>
+                    <hr>
                     <!-- LOADER HERE -->
                     <div id="loading" class="mt-5">
                         <img src="./static/loader.gif" alt="loader">
                     </div>
                     <!-- RESULT -->
                     <div class="mt-5" id="result">
-                        <h5>Salariu Estimat</h5>
+                        <h6>Zile Totale in luna<h6>
+                        <div class="input-group mb-3">
+                            
+                            <div class="input-group-prepend">
+                                <span class="input-group-text far fa-calendar-alt"></span>
+                            </div>
+                            <input type="text" class="form-control" id="wd" placeholder="" disabled>
+                        </div>
+                        <h6>Zile Pontate<h6>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text far fa-calendar-alt"></span>
+                            </div>
+                            <input type="text" class="form-control" id="wp" placeholder="" disabled>
+                        </div>
+                        <h6>Salariu Estimat</h6>
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
                                 <span class="input-group-text">=</span>

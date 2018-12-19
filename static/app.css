@@ -10,3 +10,8 @@
 #loading, #result {
     display: none;
 }
+
+h6 {
+    font-weight: 200;
+    text-transform: uppercase;
+}
