@@ -1,8 +1,4 @@
 document.getElementById('salary-form').addEventListener('submit', (e) => {
-    // document.getElementById('result').style.display = 'none';
-
-    // document.getElementById('loading').style.display = 'block';
-
      setTimeout(calcSal, 500);
     e.preventDefault();
 });
@@ -63,14 +59,13 @@ function calcSal() {
         wp.value = day_worked;
         wd.value=wkdys;
         
-        // document.getElementById('loading').style.display = 'none';
         document.getElementById('result').style.display = 'block';
     }
 }
 
 
 function showError(error) {
-    // document.getElementById('loading').style.display = 'none';
+
     document.getElementById('result').style.display = 'none';
     const errorDiv = document.createElement('div');
 
