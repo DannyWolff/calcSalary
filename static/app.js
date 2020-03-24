@@ -58,10 +58,8 @@ function calcSal() {
         rez.value = result;
         wp.value = day_worked;
         wd.value=wkdys;
-        
-        document.getElementById('result').style.display = 'block';
-        // let resultHight = document.getElementById('result').offsetHeight;
-        // console.log(resultHight);
+        document.getElementById('result').className = "mt-5 result-show";
+     
         
     }
 }

@@ -7,8 +7,15 @@
     color:#FFFFFF;
 }
 
-#result {
-    display: none;
+.result-hidden {
+    max-height: 0px;
+    overflow: hidden;
+}
+.result-show {
+    overflow:hidden;
+    max-height: 999px;
+    display:block;
+    transition: max-height 1s ease-in;
 }
 
 h6 {
