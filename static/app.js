@@ -60,6 +60,9 @@ function calcSal() {
         wd.value=wkdys;
         
         document.getElementById('result').style.display = 'block';
+        // let resultHight = document.getElementById('result').offsetHeight;
+        // console.log(resultHight);
+        
     }
 }
 
